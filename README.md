@@ -1,24 +1,37 @@
-# README
+# Quick Installation Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Installing the Ruby on Rails on Ubuntu 16.04 (Xenial Xerus).
 
-Things you may want to cover:
+## Ruby Installation (as sudo user (root)):
+sudo apt-get update
 
-* Ruby version
+sudo apt-get upgrade -y
 
-* System dependencies
+sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev libsqlite3-dev
 
-* Configuration
+## Django Installation:
+sudo gem install rails -v 5.0.0.1
 
-* Database creation
+## Check Ruby and Rails version:
+ruby -v
 
-* Database initialization
+rails -v
 
-* How to run the test suite
+## Node.js Installation:
+sudo apt-get install nodejs
 
-* Services (job queues, cache servers, search engines, etc.)
+## Create new project:
+rails new ruby_on_rails_project_name
 
-* Deployment instructions
+## Run project:
+cd ruby_on_rails_project_name
 
-* ...
+rails s
+
+## Test in the browser:
+localhost:3000
+
+##
+
+If the message 'Yay! You’re on Rails!' Ruby on Rails installation is ok.
+
