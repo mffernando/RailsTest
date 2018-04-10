@@ -9,7 +9,7 @@ sudo apt-get upgrade -y
 
 sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev libsqlite3-dev
 
-## Django Installation:
+## Rails Installation:
 sudo gem install rails -v 5.0.0.1
 
 ## Check Ruby and Rails version:
